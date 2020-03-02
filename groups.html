@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>groups</title>
+    <link href="css/groups.css" rel="stylesheet"/>
+</head>
+<body> <!--onload="init()"-->
+<div class="container">
+        <div class="header">
+            <h2>ICS 465 Students</h2>
+        </div>
+
+        <div class="selection">
+            <input type="number" name="size" id="size" value="3" min="1"> <strong>people per group</strong>
+            <div class="divider"></div>
+            <button id="groups">Generate</button>
+        </div>
+        <!--
+        <div>
+            <input id="fileInput" type="file" name="file"/>
+            <pre id="fileContent"></pre>
+        </div>
+        -->
+        <div class="table">
+            <br>
+            <table id="students">
+                <tr>
+                    <th>Scrambled Teams</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul id="ics465"></ul>
+                    </td>
+                </tr>
+            </table>
+            <script src="js/jquery-3.3.1.min.js"></script>
+            <script src="js/groups.js"></script>
+        </div>
+        <!-- <script src="js/script.js"></script>    -->
+</div>
+</body>
+</html>
